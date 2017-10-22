@@ -1,0 +1,15 @@
+{:uriI"ìfile://vendor/assets/bower_components/ckeditor/bower.json?type=application/json&id=8d650e11b65c63bb4b56c99c78742e5796d4162ef80fa1764a2395529b26ae92:ET:load_pathI"#vendor/assets/bower_components;T:filenameI"7vendor/assets/bower_components/ckeditor/bower.json;T:	nameI"ckeditor/bower;T:logical_pathI"ckeditor/bower.json;T:content_typeI"application/json;T:sourceI"å{
+	"name": "ckeditor",
+	"description": "JavaScript WYSIWYG web text editor.",
+	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
+	"authors": "CKSource (http://cksource.com/)",
+	"license": "For licensing, see LICENSE.md or http://ckeditor.com/license.",
+	"homepage": "http://ckeditor.com",
+	"main": "./ckeditor.js",
+	"moduleType": "globals"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Efile-digest://vendor/assets/bower_components/ckeditor/bower.json;TTF:charsetI"
+utf-8;F:digest"%˜à+ﬂÔ˝ÂpœCù”ª©ãŸû≠@0íc™‡L<·_X:lengthiå:dependencies_digest"%I$§©úã˙Çµé◊¶b){rﬁí˙-	ñÑÄÈJ‘pù:idI"E8d650e11b65c63bb4b56c99c78742e5796d4162ef80fa1764a2395529b26ae92;F:
+mtimel+.πY

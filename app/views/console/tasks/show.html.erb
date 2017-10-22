@@ -1,0 +1,261 @@
+<section class="content-header">
+  <h1>
+    Quản lý công việc
+    <small>Cập nhật công việc</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+    <li class="active">Cập nhật công việc</li>
+  </ol>
+</section>
+
+<section class="content">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="box box-info">
+				<div class="box-header with-border">
+        	<h3 class="box-title">Mô tả công việc</h3>
+        </div>
+        <div class="box-body">
+        	<form class="form-horizontal">
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Tiêu đề</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="inputEmail3" placeholder="Tiêu đề của công việc">
+								</div>
+          		</div>
+        		</div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Mô tả</label>
+								<div class="col-sm-10">
+									<textarea placeholder="Mô tả công việc" class="form-control"></textarea>
+								</div>
+          		</div>	
+        		</div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Dự án</label>
+								<div class="col-sm-4">
+									<select class="form-control select2" style="width: 100%;">
+                    <option></option>
+                    <option>Nhà anh Vương</option>
+                    <option>Nhà anh Hiếu</option>
+                    <option>Nhà chị A</option>
+                    <option>Nhà chị B</option>
+                    <option>Nhà chị C</option>
+                    <option>Nhà anh D</option>
+                  </select>
+								</div>
+								<label for="inputEmail3" class="col-sm-2 control-label">Loại</label>
+								<div class="col-sm-4">
+									<select class="form-control select2" style="width: 100%;">
+                    <option></option>
+                    <option>Gấp</option>
+                    <option>Bình thường</option>
+                    <option>Chưa cần</option>
+                  </select>
+								</div>
+          		</div>
+        		</div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Người phụ trách</label>
+								<div class="col-sm-10">
+									<select class="form-control select2" multiple="multiple" data-placeholder="Chọn ít nhất một người phụ trách"
+                      style="width: 100%;">
+                    <option></option>
+	                  <option>Bạn A</option>
+	                  <option>Bạn B</option>
+	                  <option>Bạn C</option>
+	                  <option>Bạn D</option>
+	                  <option>Bạn E</option>
+	                </select>
+								</div>
+          		</div>
+        		</div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Ngày hoàn thành</label>
+								<div class="col-sm-2">
+									<div class="input-group date">
+			              <div class="input-group-addon">
+			                  <i class="fa fa-calendar"></i>
+			              </div>
+			              <input type="text" class="datepicker form-control pull-right">
+			            </div>
+								</div>
+          		</div>
+        		</div>
+        	</form>
+        </div>
+	      <!-- /.box-body -->
+			</div>
+
+      <div class="box box-info">
+        <div class="box-header with-border">
+          <h3 class="box-title">Kết quả công việc</h3>
+        </div>
+        <div class="box-body">
+          <form class="form-horizontal">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">File đã render</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="File JPEG đã render">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">File CAD</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="File CAD nguyên bản">
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Hoàn thành</label>
+                <div class="col-sm-1">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="%">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Ghi chú</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Nhận xét</label>
+                <div class="col-sm-10">
+                  
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer">
+          <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Xoá</button>
+          <button type="submit" class="btn btn-info btn-sm pull-right"><i class="fa fa-save"></i> Lưu</button>
+        </div>
+        <!-- /.box-footer -->
+      </div>
+      
+      <div class="box box-success direct-chat direct-chat-success">
+        <div class="box-header with-border">
+          <h3 class="box-title">Nhận xét</h3>
+
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+            </button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+          <!-- Conversations are loaded here -->
+          <div class="direct-chat-messages">
+            <!-- Message. Default to the left -->
+            <div class="direct-chat-msg">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-left">Hiếu</span>
+                <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
+              </div>
+              <!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="../../dist/img/user1-128x128.jpg" alt="message user image">
+              <!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                Sửa chỗ A, B, C này chưa được
+              </div>
+              <!-- /.direct-chat-text -->
+            </div>
+            <!-- /.direct-chat-msg -->
+
+            <!-- Message to the right -->
+            <div class="direct-chat-msg right">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-right">Tùng</span>
+                <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
+              </div>
+              <!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="../../dist/img/user3-128x128.jpg" alt="message user image">
+              <!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                Em sửa rồi anh nhé
+              </div>
+              <!-- /.direct-chat-text -->
+            </div>
+            <!-- /.direct-chat-msg -->
+
+            <!-- Message. Default to the left -->
+            <div class="direct-chat-msg">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-left">Hiếu</span>
+                <span class="direct-chat-timestamp pull-right">23 Jan 5:37 pm</span>
+              </div>
+              <!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="../../dist/img/user1-128x128.jpg" alt="message user image">
+              <!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                Thêm cho anh chỗ A, B, CTungf
+              </div>
+              <!-- /.direct-chat-text -->
+            </div>
+            <!-- /.direct-chat-msg -->
+
+            <!-- Message to the right -->
+            <div class="direct-chat-msg right">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-right">Tùng</span>
+                <span class="direct-chat-timestamp pull-left">23 Jan 6:10 pm</span>
+              </div>
+              <!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="../../dist/img/user3-128x128.jpg" alt="message user image">
+              <!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                Em thêm rồi nhé
+              </div>
+              <!-- /.direct-chat-text -->
+            </div>
+            <!-- /.direct-chat-msg -->
+
+          </div>
+          <!--/.direct-chat-messages-->
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer">
+          <form action="#" method="post">
+            <div class="input-group">
+              <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+              <span class="input-group-btn">
+                    <button type="button" class="btn btn-warning btn-flat">Send</button>
+                  </span>
+            </div>
+          </form>
+        </div>
+        <!-- /.box-footer-->
+      </div>
+		</div>
+	</div>
+</section>
+
+<script>
+  $(function () {
+    //Date picker
+    $('.datepicker').datepicker({
+      autoclose: true
+    })
+
+    //Initialize Select2 Elements
+    $('.select2').select2()
+  })
+</script>

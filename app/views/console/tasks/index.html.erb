@@ -1,0 +1,234 @@
+<section class="content-header">
+  <h1>
+    Quản lý công việc
+    <small>Danh sách công việc</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+    <li class="active">Danh sách công việc</li>
+  </ol>
+</section>
+
+<section class="content">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="box box-info">
+        <div class="box-header with-border">
+          <h3 class="box-title">Điều kiện tìm kiếm</h3>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal">
+        	<div class="box-body">
+        		<div class="col-md-6">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Dự án</label>
+                <div class="col-sm-9">
+			            <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Nhà anh Vương</option>
+                    <option>Nhà anh Hiếu</option>
+                    <option>Nhà chị A</option>
+                    <option>Nhà chị B</option>
+                    <option>Nhà chị C</option>
+                    <option>Nhà anh D</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Tên công việc</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="Tên công việc">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Bắt đầu</label>
+                <div class="col-sm-3">
+                  <div class="input-group date">
+                    <div class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <input type="text" class="datepicker form-control pull-right">
+                  </div>
+                </div>
+                <label for="inputPassword3" class="col-sm-3 control-label">Kết thúc</label>
+                <div class="col-sm-3">
+                  <div class="input-group date">
+                    <div class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <input type="text" class="datepicker form-control pull-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Người phụ trách</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Vương</option>
+                    <option>Hiếu</option>
+                    <option>Tùng</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Loại</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Gấp</option>
+                    <option>Bình thường</option>
+                    <option>Chưa cần</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        	</div>
+        	<!-- /.box-body -->
+        	<div class="box-footer">
+          	<button type="submit" class="btn btn-info btn-sm pull-right"><i class="fa fa-search"></i> Tìm kiếm</button>
+        	</div>
+         	<!-- /.box-footer -->
+        </form>
+      </div>
+		</div>		
+	</div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box box-danger">
+        <div class="box-header with-border">
+          <h3 class="box-title">Danh sách dự án</h3>
+
+          <div class="box-tools pull-right">
+              <button type="button" class="btn bg-maroon btn-sm"><i class="fa fa-plus"></i> Tạo mới</button>
+          </div>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body table-responsive no-padding">
+          <table class="table table-hover">
+            <tr>
+              <th>Mã công việc</th>
+              <th>Dự án</th>
+              <th>Tên công việc</th>
+              <th>Người phụ trách</th>
+              <th>Người tạo</th>
+              <th>Tình trạng</th>
+              <th>Ngày kết thúc</th>
+              <th>Loại</th>
+              <th class="text-center">###</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Nhà anh Vương</td>
+              <td>Thiết kế phòng khách</td>
+              <td>Tùng</td>
+              <td>Vương</td>
+              <td><span class="label label-success">Đang thực hiện</span></td>
+              <td>01/05/2017</td>
+              <td><span class="label label-primary">Trung bình</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Nhà anh Vương</td>
+              <td>Thiết kế phòng bếp</td>
+              <td>Tùng</td>
+              <td>Vương</td>
+              <td><span class="label label-success">Đang thực hiện</span></td>
+              <td>20/05/2017</td>
+              <td><span class="label label-primary">Trung bình</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Nhà anh Vương</td>
+              <td>Thiết kế phòng ngủ lầu 1</td>
+              <td>Tùng</td>
+              <td>Vương</td>
+              <td><span class="label label-danger">Đang thực hiện</span></td>
+              <td>10/05/2017</td>
+              <td><span class="label label-danger">Gấp</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Nhà anh Vương</td>
+              <td>Thiết kế phòng ngủ Master</td>
+              <td>Tùng</td>
+              <td>Vương</td>
+              <td><span class="label label-danger">Đang thực hiện</span></td>
+              <td>10/05/2017</td>
+              <td><span class="label label-danger">Gấp</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Nhà anh Vương</td>
+              <td>Thiết kế phòng ngủ em bé</td>
+              <td>Tùng</td>
+              <td>Tùng</td>
+              <td><span class="label label-danger">Đang thực hiện</span></td>
+              <td>10/05/2017</td>
+              <td><span class="label label-danger">Gấp</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Nhà anh Vương</td>
+              <td>Thiết kế phòng thờ</td>
+              <td>Tùng</td>
+              <td>Tùng</td>
+              <td><span class="label label-warning">Hoàn thành</span></td>
+              <td>10/05/2017</td>
+              <td><span class="label label-danger">Gấp</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- /.box-body -->
+      </div>
+      <!-- /.box -->
+    </div>
+  </div>
+
+</section>
+
+<script>
+  $(function () {
+    //Date picker
+    $('.datepicker').datepicker({
+      autoclose: true
+    })
+
+    //Initialize Select2 Elements
+    $('.select2').select2()
+  })
+</script>

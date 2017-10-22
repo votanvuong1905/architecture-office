@@ -1,0 +1,31 @@
+{:uriI"ïfile://vendor/assets/bower_components/ckeditor/package.json?type=application/json&id=4a24e5385a37707ad14a38529f61f4ab29f0f1975bae4e6396784ffb0888c937:ET:load_pathI"#vendor/assets/bower_components;T:filenameI"9vendor/assets/bower_components/ckeditor/package.json;T:	nameI"ckeditor/package;T:logical_pathI"ckeditor/package.json;T:content_typeI"application/json;T:sourceI"4{
+  "name": "ckeditor",
+  "version": "4.7.3",
+  "description": "JavaScript WYSIWYG web text editor.",
+  "main": "ckeditor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckeditor/ckeditor-releases.git"
+  },
+  "keywords": [
+    "ckeditor",
+    "fckeditor",
+    "editor",
+    "wysiwyg",
+    "html",
+    "richtext",
+    "text",
+    "javascript"
+  ],
+  "author": "CKSource (http://cksource.com/)",
+  "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
+  "bugs": {
+    "url": "http://dev.ckeditor.com"
+  },
+  "homepage": "http://ckeditor.com"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Gfile-digest://vendor/assets/bower_components/ckeditor/package.json;TTF:charsetI"
+utf-8;F:digest"%[T›È¶ÖpùøÍ›Ösz∂Ó1Åæ∆m ¬@≠Ty=:lengthi4:dependencies_digest"%ì·ö|˚§ZóêR§^éèÏÕêÄ¥‘4≤E§zû–˙}:idI"E4a24e5385a37707ad14a38529f61f4ab29f0f1975bae4e6396784ffb0888c937;F:
+mtimel+.πY

@@ -1,0 +1,2 @@
+module Console::DashboardHelper
+end

@@ -1,0 +1,2 @@
+module Console::ProjectsHelper
+end

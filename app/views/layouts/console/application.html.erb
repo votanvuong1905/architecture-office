@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Office Management</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'console/application', media: 'all' %>
+    <%= javascript_include_tag 'console/application' %>
+  </head>
+
+  <body class="hold-transition skin-purple sidebar-collapse sidebar-mini">
+    <div class="wrapper">
+      <%= render "partials/console/header" %>
+      <%= render "partials/console/sidebar" %>
+
+      <div class="content-wrapper">
+        <%= yield %>
+      </div>
+
+      <%= render "partials/console/footer" %>
+    </div>
+  </body>
+</html>

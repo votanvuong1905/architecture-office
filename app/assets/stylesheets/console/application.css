@@ -1,0 +1,16 @@
+/*
+*= require bootstrap/dist/css/bootstrap
+*= require admin-lte/dist/css/skins/skin-purple
+*= require font-awesome/css/font-awesome.min.css
+*= require Ionicons/css/ionicons
+*= require morris.js/morris
+*= require jvectormap/jquery-jvectormap
+*= require select2/dist/css/select2.min
+*= require bootstrap-datepicker/dist/css/bootstrap-datepicker.min
+*= require bootstrap-daterangepicker/daterangepicker
+*= require admin-lte/dist/css/skins/_all-skins.min
+*= require admin-lte/dist/css/AdminLTE.min
+*= require admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min
+*= require_tree .
+*= require_self
+*/

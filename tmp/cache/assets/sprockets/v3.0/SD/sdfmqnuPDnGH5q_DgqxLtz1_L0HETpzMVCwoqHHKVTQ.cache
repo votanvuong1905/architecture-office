@@ -1,0 +1,24 @@
+{:uriI"–file://vendor/assets/bower_components/ckeditor/composer.json?type=application/json&id=8cac00eb2b3eb2a177b4f11bc34215b79f491d4fe03579ff89c3d55e4af03f28:ET:load_pathI"#vendor/assets/bower_components;T:filenameI":vendor/assets/bower_components/ckeditor/composer.json;T:	nameI"ckeditor/composer;T:logical_pathI"ckeditor/composer.json;T:content_typeI"application/json;T:sourceI"B{
+	"name": "ckeditor/ckeditor",
+	"description": "JavaScript WYSIWYG web text editor.",
+	"type": "library",
+	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
+	"homepage": "http://ckeditor.com",
+	"license": [ "GPL-2.0+", "LGPL-2.1+", "MPL-1.1+" ],
+	"authors": [
+		{
+			"name":  "CKSource",
+			"homepage": "http://cksource.com"
+		}
+	],
+	"support": {
+		"issues": "http://dev.ckeditor.com",
+		"forum": "http://ckeditor.com/forums",
+		"wiki": "http://docs.ckeditor.com",
+		"source": "http://github.com/ckeditor/ckeditor-dev"
+	}
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Hfile-digest://vendor/assets/bower_components/ckeditor/composer.json;TTF:charsetI"
+utf-8;F:digest"%ÛWÖP–£ ÈÊóàb¡U¼Ó8®Lé0‹Éa«½àî“…Ê:lengthiB:dependencies_digest"%ˆu@¹®¥äÆB(‰™œ)³Í5¡Ä4ûÃ9cb]:idI"E8cac00eb2b3eb2a177b4f11bc34215b79f491d4fe03579ff89c3d55e4af03f28;F:
+mtimel+.¹Y

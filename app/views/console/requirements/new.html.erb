@@ -1,0 +1,68 @@
+<section class="content-header">
+  <h1>
+    Quản lý cập nhật yêu cầu
+    <small>Cập nhật yêu cầu</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+    <li class="active">Cập nhật yêu cầu</li>
+  </ol>
+</section>
+
+<section class="content">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="box box-info">
+				<div class="box-header with-border">
+        	<h3 class="box-title">Mô tả cập nhật yêu cầu</h3>
+        </div>
+        <%= form_for :anything,  html: {id: 'item_form', class: 'form-horizontal'}, url: "my_controller/my_action" do |form| %> <form class="form-horizontal">
+        <div class="box-body">
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Dự án</label>
+								<div class="col-sm-10">
+									<select class="form-control select2" style="width: 100%;">
+                    <option></option>
+                    <option>Nhà anh Vương</option>
+                    <option>Nhà anh Hiếu</option>
+                    <option>Nhà chị A</option>
+                    <option>Nhà chị B</option>
+                    <option>Nhà chị C</option>
+                    <option>Nhà anh D</option>
+                  </select>
+								</div>
+          		</div>
+        		</div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Nội dung thay đổi</label>
+								<div class="col-sm-10">
+                    <%= form.cktext_area :notes, class: 'someclass', ckeditor: { language: 'vi'} %>
+								</div>
+          		</div>	
+        		</div>
+        </div>
+	      <!-- /.box-body -->
+				<div class="box-footer">
+					<button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Xoá</button>
+					<button type="submit" class="btn btn-info btn-sm pull-right"><i class="fa fa-save"></i> Lưu</button>
+				</div>
+				<!-- /.box-footer -->
+        <% end %>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+  $(function () {
+    //Date picker
+    $('.datepicker').datepicker({
+      autoclose: true
+    })
+
+    //Initialize Select2 Elements
+    $('.select2').select2()
+  })
+</script>
