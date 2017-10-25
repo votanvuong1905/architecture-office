@@ -12,10 +12,10 @@
 //= require moment/min/moment.min
 //= require bootstrap-daterangepicker/daterangepicker
 //= require bootstrap-datepicker/dist/js/bootstrap-datepicker.min
-//= require admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min
 //= require jquery-slimscroll/jquery.slimscroll.min
 //= require fastclick/lib/fastclick.js
 //= require admin-lte/dist/js/adminlte
 //= require admin-lte/dist/js/demo
+//= require fullcalendar/dist/fullcalendar.min
 //= require ckeditor/init
 //= require_tree .

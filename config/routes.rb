@@ -9,5 +9,6 @@ Rails.application.routes.draw do
     resources :advances
     resources :tasks
     resources :requirements
+    resources :timesheets
   end
 end
