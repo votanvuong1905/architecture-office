@@ -1,0 +1,79 @@
+<section class="content-header">
+  <h1>
+    Quản lý xin nghỉ phép
+    <small>Tạo mới xin phép nghỉ</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+    <li><a href="<%= console_absents_url %>"><i class="fa fa-list"></i> Danh sách xin phép nghỉ</a></li>
+    <li class="active">Tạo mới xin phép nghỉ</li>
+  </ol>
+</section>
+
+<section class="content">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="box box-info">
+				<div class="box-header with-border">
+        	<h3 class="box-title">Thông tin xin nghỉ</h3>
+        </div>
+        <%= form_for :anything,  html: {id: 'item_form', class: 'form-horizontal'}, url: "my_controller/my_action" do |form| %> <form class="form-horizontal">
+        <div class="box-body">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Loại nghỉ phép</label>
+                <div class="col-sm-3">
+                  <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Đang chờ</option>
+                    <option>Đã duyệt</option>
+                    <option>Không duyệt</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputPassword3" class="col-sm-2 control-label">Thời gian nghỉ</label>
+                <div class="col-sm-3">
+                  <%= form.text_field :target_at_range_text, class: "form-control range-time" %>
+                </div>
+          		</div>
+        		</div>
+        		<div class="col-sm-12">
+        			<div class="form-group">
+              	<label for="inputEmail3" class="col-sm-2 control-label">Lý do nghỉ</label>
+								<div class="col-sm-10">
+                    <%= form.cktext_area :notes, class: 'someclass', ckeditor: { language: 'vi'} %>
+								</div>
+          		</div>	
+        		</div>
+        </div>
+	      <!-- /.box-body -->
+				<div class="box-footer">
+					<button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Xoá</button>
+          <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-remove"></i> Không duyệt</button>
+					<button type="submit" class="btn btn-info btn-sm pull-right"><i class="fa fa-save"></i> Lưu</button>
+          <button type="submit" class="btn btn-info btn-sm"><i class="fa fa-check"></i> Duyệt</button>
+				</div>
+				<!-- /.box-footer -->
+        <% end %>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+  $(function () {
+    //Date picker
+    $('.datepicker').datepicker({
+      autoclose: true
+    })
+
+    //Date range picker with time picker
+    $('.range-time').daterangepicker({ timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY HH:mm' })
+
+    //Initialize Select2 Elements
+    $('.select2').select2()
+  })
+</script>

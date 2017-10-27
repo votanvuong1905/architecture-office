@@ -10,5 +10,8 @@ Rails.application.routes.draw do
     resources :tasks
     resources :requirements
     resources :timesheets
+    resources :absents
+    resources :overtimes
+    resources :dailyreports
   end
 end

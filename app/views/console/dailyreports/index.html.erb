@@ -1,0 +1,167 @@
+<section class="content-header">
+  <h1>
+    Quản lý báo cáo
+    <small>Danh sách báo cáo</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+    <li class="active">Danh sách báo cáo</li>
+  </ol>
+</section>
+
+<section class="content">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="box box-info">
+        <div class="box-header with-border">
+          <h3 class="box-title">Điều kiện tìm kiếm</h3>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal">
+        	<div class="box-body">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Tên nhân viên</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="Tên nhân viên">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Dự án</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Nhà anh Vương</option>
+                    <option>Nhà anh Hiếu</option>
+                    <option>Nhà chị A</option>
+                    <option>Nhà chị B</option>
+                    <option>Nhà chị C</option>
+                    <option>Nhà anh D</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Ngày báo cáo</label>
+                <div class="col-sm-9">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <input type="text" class="range-time form-control">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Trạng thái</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Đang chờ</option>
+                    <option>Đã duyệt</option>
+                    <option>Không duyệt</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Người duyệt</label>
+                <div class="col-sm-9">
+                  <select class="form-control select2" style="width: 100%;">
+                    <option>Tất cả</option>
+                    <option>Vương</option>
+                    <option>Hiếu</option>
+                    <option>Tùng</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        	</div>
+        	<!-- /.box-body -->
+        	<div class="box-footer">
+          	<button type="submit" class="btn btn-info btn-sm pull-right"><i class="fa fa-search"></i> Tìm kiếm</button>
+        	</div>
+         	<!-- /.box-footer -->
+        </form>
+      </div>
+		</div>		
+	</div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box box-danger">
+        <div class="box-header with-border">
+          <h3 class="box-title">Danh sách báo cáo</h3>
+          <div class="box-tools pull-right">
+            <%= link_to new_console_dailyreport_path, class: "btn bg-maroon btn-sm" do %>
+              <i class="fa fa-plus"></i>
+              <%= " Tạo mới" %>
+            <% end %>
+          </div>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body table-responsive no-padding">
+          <table class="table table-hover">
+            <tr>
+              <th>Mã nhân viên</th>
+              <th>Tên nhân viên</th>
+              <th>Dự án</th>
+              <th>Ngày báo cáo</th>
+              <th>Số giờ làm</th>
+              <th>Nội dung</th>
+              <th>Trạng thái</th>
+              <th class="text-center">###</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Nguyễn Văn A</td>
+              <td>Nhà anh A</td>
+              <td>01/05/2017</td>
+              <td>8h</td>
+              <td>Hôm nay hoàn thành việc A, sửa việc B, ...</td>
+              <td><span class="label label-success">Đã duyệt</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Nguyễn Văn B</td>
+              <td>Nhà anh A</td>
+              <td>01/05/2017</td>
+              <td>8h</td>
+              <td>Hôm nay hoàn thành việc A, sửa việc B, ...</td>
+              <td><span class="label label-warning">Đang chờ</span></td>
+              <td class="text-center">
+                <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-eye"></i></a>
+                <a class="btn btn-xs"><i class="fa fa-trash"></i></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- /.box-body -->
+      </div>
+      <!-- /.box -->
+    </div>
+  </div>
+
+</section>
+
+<script>
+  $(function () {
+    //Date picker
+    $('.datepicker').datepicker({
+      autoclose: true
+    })
+
+    //Initialize Select2 Elements
+    $('.select2').select2()
+
+    //Date range picker with time picker
+    $('.range-time').daterangepicker({ timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY HH:mm' })
+  })
+</script>

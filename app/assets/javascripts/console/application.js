@@ -10,8 +10,8 @@
 //= require admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en
 //= require jquery-knob/dist/jquery.knob.min
 //= require moment/min/moment.min
-//= require bootstrap-daterangepicker/daterangepicker
 //= require bootstrap-datepicker/dist/js/bootstrap-datepicker.min
+//= require bootstrap-daterangepicker/daterangepicker
 //= require jquery-slimscroll/jquery.slimscroll.min
 //= require fastclick/lib/fastclick.js
 //= require admin-lte/dist/js/adminlte

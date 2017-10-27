@@ -96,7 +96,10 @@
         	<h3 class="box-title">Danh sách dự án</h3>
 
           <div class="box-tools pull-right">
-              <button type="button" class="btn bg-maroon btn-sm"><i class="fa fa-plus"></i> Tạo mới</button>
+            <%= link_to new_console_project_path, class: "btn bg-maroon btn-sm" do %>
+              <i class="fa fa-plus"></i>
+              <%= " Tạo mới" %>
+            <% end %>
           </div>
         </div>
         <!-- /.box-header -->
