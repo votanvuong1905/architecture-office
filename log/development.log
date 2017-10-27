@@ -15179,3 +15179,101 @@ puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
 puma (3.10.0) lib/puma/server.rb:437:in `process_client'
 puma (3.10.0) lib/puma/server.rb:301:in `block in run'
 puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-28 02:58:57 +0900
+  [1m[35m (29.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/vuongvotan/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/vuongvotan/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 29ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/console" for 127.0.0.1 at 2017-10-28 02:59:01 +0900
+Processing by Console::DashboardController#index as HTML
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-28 02:59:01 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (69.9ms)
+Completed 200 OK in 26963ms (Views: 26932.2ms | ActiveRecord: 14.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-10-28 02:59:38 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M6IiHxTLIZJATWo4HFuvEyYDQfu0RZ2mryyRqul2UUT5kHbXfLGKFUphltAlK4nz8xWavII7gUD0eaTNQdgj/w==", "user"=>{"email"=>"admin@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (12.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'admin@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.6ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-10-27 17:59:39', `sign_in_count` = 2, `updated_at` = '2017-10-27 17:59:39' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/console
+Completed 302 Found in 234ms (ActiveRecord: 18.5ms)
+
+
+Started GET "/console" for 127.0.0.1 at 2017-10-28 02:59:39 +0900
+Processing by Console::DashboardController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/dashboard/index.html.erb within layouts/console/application
+  Rendered console/dashboard/index.html.erb within layouts/console/application (1.1ms)
+  Rendered partials/console/_header.html.erb (0.4ms)
+  Rendered partials/console/_sidebar.html.erb (1.3ms)
+  Rendered partials/console/_footer.html.erb (0.7ms)
+Completed 200 OK in 508ms (Views: 502.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/console/timesheets" for 127.0.0.1 at 2017-10-28 02:59:45 +0900
+Processing by Console::TimesheetsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/timesheets/index.html.erb within layouts/console/application
+  Rendered console/timesheets/index.html.erb within layouts/console/application (1.0ms)
+  Rendered partials/console/_header.html.erb (0.5ms)
+  Rendered partials/console/_sidebar.html.erb (1.0ms)
+  Rendered partials/console/_footer.html.erb (0.3ms)
+Completed 200 OK in 171ms (Views: 162.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/console/tasks" for 127.0.0.1 at 2017-10-28 02:59:54 +0900
+Processing by Console::TasksController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/index.html.erb within layouts/console/application
+  Rendered console/tasks/index.html.erb within layouts/console/application (2.2ms)
+  Rendered partials/console/_header.html.erb (0.9ms)
+  Rendered partials/console/_sidebar.html.erb (2.2ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 179ms (Views: 171.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/console/tasks/new" for 127.0.0.1 at 2017-10-28 02:59:56 +0900
+Processing by Console::TasksController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/new.html.erb within layouts/console/application
+  Rendered console/tasks/new.html.erb within layouts/console/application (6.1ms)
+  Rendered partials/console/_header.html.erb (0.7ms)
+  Rendered partials/console/_sidebar.html.erb (2.0ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 180ms (Views: 172.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/console/tasks/new" for 127.0.0.1 at 2017-10-28 03:00:01 +0900
+Processing by Console::TasksController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/new.html.erb within layouts/console/application
+  Rendered console/tasks/new.html.erb within layouts/console/application (3.0ms)
+  Rendered partials/console/_header.html.erb (0.9ms)
+  Rendered partials/console/_sidebar.html.erb (2.2ms)
+  Rendered partials/console/_footer.html.erb (1.2ms)
+Completed 200 OK in 197ms (Views: 190.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/console/tasks" for 127.0.0.1 at 2017-10-28 03:00:15 +0900
+Processing by Console::TasksController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/index.html.erb within layouts/console/application
+  Rendered console/tasks/index.html.erb within layouts/console/application (2.3ms)
+  Rendered partials/console/_header.html.erb (0.8ms)
+  Rendered partials/console/_sidebar.html.erb (3.3ms)
+  Rendered partials/console/_footer.html.erb (0.7ms)
+Completed 200 OK in 179ms (Views: 171.5ms | ActiveRecord: 0.5ms)
+
+
