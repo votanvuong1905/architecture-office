@@ -30,10 +30,21 @@
               <div class="form-group">
                 <label for="inputPassword3" class="col-sm-3 control-label">Ngày ứng tiền</label>
                 <div class="col-sm-4">
-                  <input type="text" class="datepicker form-control pull-right " id="">
+                  <div class="input-group date">
+                    <div class="input-group-addon">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                    <input type="text" class="form-control pull-right datepicker">
+                  </div>
                 </div>
+                <div class="col-sm-1"><span>~</span></div>
                 <div class="col-sm-4">
-                  <input type="text" class="datepicker form-control pull-right " id="">
+                  <div class="input-group date">
+                    <div class="input-group-addon">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                    <input type="text" class="form-control pull-right datepicker">
+                  </div>
                 </div>
               </div>
             </div>
@@ -47,7 +58,7 @@
               <div class="form-group">
                 <label for="inputPassword3" class="col-sm-3 control-label">Tình trạng</label>
                 <div class="col-sm-4">
-                  <select class="form-control">
+                  <select class="form-control select2" style="width: 100%;">
                     <option></option>
                     <option>Đã nhận</option>
                     <option>Chưa nhận</option>
@@ -63,7 +74,7 @@
           <!-- /.box-footer -->
         </form>
       </div>
-    </div>    
+    </div>
   </div>
 
   <div class="row">
@@ -109,7 +120,7 @@
                 <span class="label label-success">2.000.000.000</span>
               </td>
               <td>
-                
+
               </td>
               <td class="text-center">
                 <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
@@ -131,7 +142,7 @@
                 <span class="label label-success">500.000.000</span>
               </td>
               <td>
-                
+
               </td>
               <td class="text-center">
                 <a class="btn btn-xs"><i class="fa fa-edit"></i></a>
@@ -221,6 +232,9 @@
     $('.datepicker').datepicker({
       autoclose: true
     })
+
+    //Initialize Select2 Elements
+    $('.select2').select2()
 
   });
 </script>

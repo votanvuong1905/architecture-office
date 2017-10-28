@@ -28,6 +28,19 @@
                 </div>
               </div>
               <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Thời gian nghỉ</label>
+                <div class="col-sm-9">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <input type="text" class="range-time form-control">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
                 <label for="inputEmail3" class="col-sm-3 control-label">Người duyệt</label>
                 <div class="col-sm-9">
                   <select class="form-control select2" style="width: 100%;">
@@ -36,28 +49,6 @@
                     <option>Hiếu</option>
                     <option>Tùng</option>
                   </select>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="form-group">
-                <label for="inputPassword3" class="col-sm-3 control-label">Bắt đầu</label>
-                <div class="col-sm-3">
-                  <div class="input-group date">
-                    <div class="input-group-addon">
-                        <i class="fa fa-calendar"></i>
-                    </div>
-                    <input type="text" class="datepicker form-control pull-right">
-                  </div>
-                </div>
-                <label for="inputPassword3" class="col-sm-3 control-label">Kết thúc</label>
-                <div class="col-sm-3">
-                  <div class="input-group date">
-                    <div class="input-group-addon">
-                        <i class="fa fa-calendar"></i>
-                    </div>
-                    <input type="text" class="datepicker form-control pull-right">
-                  </div>
                 </div>
               </div>
               <div class="form-group">
@@ -80,7 +71,7 @@
          	<!-- /.box-footer -->
         </form>
       </div>
-		</div>		
+		</div>
 	</div>
 
   <div class="row">
@@ -169,5 +160,8 @@
 
     //Initialize Select2 Elements
     $('.select2').select2()
+
+    //Date range picker with time picker
+    $('.range-time').daterangepicker({ timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY HH:mm' })
   })
 </script>
