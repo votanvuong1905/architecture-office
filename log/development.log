@@ -16104,3 +16104,15 @@ Processing by Console::TasksController#show as HTML
 Completed 200 OK in 123ms (Views: 119.2ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 02:18:56 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (4.3ms)
+  Rendered partials/console/_header.html.erb (4.2ms)
+  Rendered partials/console/_sidebar.html.erb (2.2ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 1464ms (Views: 1459.1ms | ActiveRecord: 0.5ms)
+
+
