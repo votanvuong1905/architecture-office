@@ -16116,3 +16116,215 @@ Processing by Console::TasksController#show as HTML
 Completed 200 OK in 1464ms (Views: 1459.1ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 02:26:35 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.9ms)
+  Rendered partials/console/_header.html.erb (0.7ms)
+  Rendered partials/console/_sidebar.html.erb (1.3ms)
+  Rendered partials/console/_footer.html.erb (0.5ms)
+Completed 200 OK in 118ms (Views: 114.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 02:27:27 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.7ms)
+  Rendered partials/console/_header.html.erb (1.0ms)
+  Rendered partials/console/_sidebar.html.erb (2.5ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 132ms (Views: 128.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 02:27:48 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.6ms)
+  Rendered partials/console/_header.html.erb (1.0ms)
+  Rendered partials/console/_sidebar.html.erb (1.6ms)
+  Rendered partials/console/_footer.html.erb (0.5ms)
+Completed 200 OK in 164ms (Views: 159.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 02:28:48 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.8ms)
+  Rendered partials/console/_header.html.erb (1.0ms)
+  Rendered partials/console/_sidebar.html.erb (1.3ms)
+  Rendered partials/console/_footer.html.erb (0.5ms)
+Completed 200 OK in 122ms (Views: 118.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:04:34 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (2.0ms)
+  Rendered partials/console/_header.html.erb (1.1ms)
+  Rendered partials/console/_sidebar.html.erb (3.2ms)
+  Rendered partials/console/_footer.html.erb (1.2ms)
+Completed 200 OK in 164ms (Views: 160.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:05:50 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.8ms)
+  Rendered partials/console/_header.html.erb (2.7ms)
+  Rendered partials/console/_sidebar.html.erb (2.2ms)
+  Rendered partials/console/_footer.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 146.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:07:02 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (2.3ms)
+  Rendered partials/console/_header.html.erb (0.9ms)
+  Rendered partials/console/_sidebar.html.erb (2.5ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 161ms (Views: 156.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:08:21 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (2.4ms)
+  Rendered partials/console/_header.html.erb (1.4ms)
+  Rendered partials/console/_sidebar.html.erb (3.9ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 154ms (Views: 149.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:15:20 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/vuongvotan/Documents/Projects/architecture-office/app/views/console/tasks/show.html.erb:233: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/console/tasks/show.html.erb:233: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:15:33 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.9ms)
+  Rendered partials/console/_header.html.erb (1.7ms)
+  Rendered partials/console/_sidebar.html.erb (2.0ms)
+  Rendered partials/console/_footer.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 143.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:16:40 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (2.1ms)
+  Rendered partials/console/_header.html.erb (0.8ms)
+  Rendered partials/console/_sidebar.html.erb (1.3ms)
+  Rendered partials/console/_footer.html.erb (0.4ms)
+Completed 200 OK in 126ms (Views: 121.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:16:49 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.9ms)
+  Rendered partials/console/_header.html.erb (1.0ms)
+  Rendered partials/console/_sidebar.html.erb (1.8ms)
+  Rendered partials/console/_footer.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 147.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/tasks/1" for 127.0.0.1 at 2017-10-29 03:18:54 +0900
+Processing by Console::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/tasks/show.html.erb within layouts/console/application
+  Rendered console/tasks/show.html.erb within layouts/console/application (1.5ms)
+  Rendered partials/console/_header.html.erb (0.8ms)
+  Rendered partials/console/_sidebar.html.erb (4.1ms)
+  Rendered partials/console/_footer.html.erb (0.6ms)
+Completed 200 OK in 135ms (Views: 131.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/console/projects" for 127.0.0.1 at 2017-10-29 21:04:04 +0900
+Processing by Console::ProjectsController#index as HTML
+  [1m[36mUser Load (15.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/projects/index.html.erb within layouts/console/application
+  Rendered console/projects/index.html.erb within layouts/console/application (8.1ms)
+  Rendered partials/console/_header.html.erb (4.2ms)
+  Rendered partials/console/_sidebar.html.erb (4.1ms)
+  Rendered partials/console/_footer.html.erb (1.1ms)
+Completed 200 OK in 333ms (Views: 268.2ms | ActiveRecord: 15.2ms)
+
+
+Started GET "/console/projects" for 127.0.0.1 at 2017-10-29 22:46:21 +0900
+Processing by Console::ProjectsController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/projects/index.html.erb within layouts/console/application
+  Rendered console/projects/index.html.erb within layouts/console/application (10.9ms)
+  Rendered partials/console/_header.html.erb (2.1ms)
+  Rendered partials/console/_sidebar.html.erb (7.5ms)
+  Rendered partials/console/_footer.html.erb (2.5ms)
+Completed 200 OK in 473ms (Views: 435.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/console/projects/new" for 127.0.0.1 at 2017-10-29 22:46:23 +0900
+Processing by Console::ProjectsController#new as HTML
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/projects/new.html.erb within layouts/console/application
+  Rendered console/projects/new.html.erb within layouts/console/application (6.2ms)
+  Rendered partials/console/_header.html.erb (0.8ms)
+  Rendered partials/console/_sidebar.html.erb (4.6ms)
+  Rendered partials/console/_footer.html.erb (1.1ms)
+Completed 200 OK in 370ms (Views: 351.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/console/projects/new" for 127.0.0.1 at 2017-10-29 22:46:57 +0900
+Processing by Console::ProjectsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/projects/new.html.erb within layouts/console/application
+  Rendered console/projects/new.html.erb within layouts/console/application (2.7ms)
+  Rendered partials/console/_header.html.erb (0.7ms)
+  Rendered partials/console/_sidebar.html.erb (3.7ms)
+  Rendered partials/console/_footer.html.erb (0.9ms)
+Completed 200 OK in 212ms (Views: 205.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/console/projects/new" for 127.0.0.1 at 2017-10-29 22:47:32 +0900
+Processing by Console::ProjectsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering console/projects/new.html.erb within layouts/console/application
+  Rendered console/projects/new.html.erb within layouts/console/application (1.4ms)
+  Rendered partials/console/_header.html.erb (1.3ms)
+  Rendered partials/console/_sidebar.html.erb (2.1ms)
+  Rendered partials/console/_footer.html.erb (1.9ms)
+Completed 200 OK in 249ms (Views: 244.3ms | ActiveRecord: 0.4ms)
+
+
