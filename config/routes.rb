@@ -13,5 +13,6 @@ Rails.application.routes.draw do
     resources :absents
     resources :overtimes
     resources :dailyreports
+    resources :costs
   end
 end
