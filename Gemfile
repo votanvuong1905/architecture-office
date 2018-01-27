@@ -20,6 +20,7 @@ gem 'bower-rails'
 gem 'font-awesome-rails'
 gem 'kaminari'
 gem 'ckeditor'
+gem 'therubyracer', platforms: :ruby
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
